@@ -1,8 +1,8 @@
 Package.describe({
     summary: "Accounts Templates unstyled.",
-    version: "1.4.0",
-    name: "useraccounts:unstyled",
-    git: "https://github.com/meteor-useraccounts/unstyled.git",
+    version: "1.4.0_1",
+    name: "pfafman:user-acounts-unstyled",
+    git: "https://github.com/pfafman/meteor-useraccounts-unstyled.git",
 });
 
 Package.on_use(function(api, where) {
@@ -59,7 +59,7 @@ Package.on_use(function(api, where) {
 
 Package.on_test(function(api) {
     api.use([
-        "useraccounts:unstyled",
+        "pfafman:user-acounts-unstyled",
         "useraccounts:core@1.4.0",
     ]);
 
